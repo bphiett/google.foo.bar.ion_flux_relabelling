@@ -2,8 +2,8 @@ import unittest
 
 def heightToSize(height):
 
-        n = (2**height)-1
-        return n
+    n = (2**height)-1
+    return n
 
 def findParent(root, height, node, parent=-1):
 
